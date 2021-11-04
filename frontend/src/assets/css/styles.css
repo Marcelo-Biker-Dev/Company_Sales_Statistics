@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
 :root {
-    --color-primary: #7d9480;
+    --color-primary: #51945a;
 }
 
 html, body {
@@ -24,7 +24,7 @@ html, body {
 }
 
 .bg-primary {
-    background-color: #FF8400;
+    background-color: var(--color-primary) !important;
 }
 
 .text-primary {
